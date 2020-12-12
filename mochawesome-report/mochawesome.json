@@ -1,0 +1,156 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-06-25T10:18:45.404Z",
+    "end": "2020-06-25T10:18:46.905Z",
+    "duration": 1501,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "75a5b942-1b69-48bc-aff7-6cff50a68f47",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [
+        {
+          "title": "\"before all\" hook",
+          "fullTitle": "\"before all\" hook",
+          "timedOut": false,
+          "duration": 1,
+          "state": null,
+          "speed": null,
+          "pass": false,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "",
+          "err": {},
+          "uuid": "253c8091-e237-4a38-93ea-db22c6070257",
+          "parentUUID": "75a5b942-1b69-48bc-aff7-6cff50a68f47",
+          "isHook": true,
+          "skipped": false
+        }
+      ],
+      "afterHooks": [
+        {
+          "title": "\"after all\" hook",
+          "fullTitle": "\"after all\" hook",
+          "timedOut": false,
+          "duration": 0,
+          "state": null,
+          "speed": null,
+          "pass": false,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "",
+          "err": {},
+          "uuid": "92c602d7-66f0-4ed3-9f9a-36231462de2b",
+          "parentUUID": "75a5b942-1b69-48bc-aff7-6cff50a68f47",
+          "isHook": true,
+          "skipped": false
+        },
+        {
+          "title": "\"after each\" hook",
+          "fullTitle": "\"after each\" hook",
+          "timedOut": false,
+          "duration": 0,
+          "state": null,
+          "speed": null,
+          "pass": false,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "checkForUnfulfilledExpectations.call(this);\nrecordedExpects = [];",
+          "err": {},
+          "uuid": "22e577e7-882b-4610-9c00-e23b5a45703b",
+          "parentUUID": "75a5b942-1b69-48bc-aff7-6cff50a68f47",
+          "isHook": true,
+          "skipped": false
+        }
+      ],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "27c671fd-f610-4996-a7ef-995b759e8b9a",
+          "title": "hello",
+          "fullFile": "/Users/dkoul/Documents/EklavyaRunner/http.js",
+          "file": "/http.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verifies hello",
+              "fullTitle": "hello verifies hello",
+              "timedOut": false,
+              "duration": 1494,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var chakram = require('chakram');\nvar response = chakram.get(URL);\nexpect(response).to.have.status(200);\nreturn chakram.wait();",
+              "err": {},
+              "uuid": "f48e297e-9985-440c-bdb6-e00843fafc1c",
+              "parentUUID": "27c671fd-f610-4996-a7ef-995b759e8b9a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f48e297e-9985-440c-bdb6-e00843fafc1c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1494,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}
